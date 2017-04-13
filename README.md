@@ -6,7 +6,7 @@
 - [Javascript ES5](es5/)
 - [Javascript Modular](javascript-modular/)
 - [CSS & Sass](css-sass/)
-- [HTML](html5/)
+- [HTML5](html5/)
 - [React](react/)
 
 ## 團隊共同準則優點

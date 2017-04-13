@@ -97,17 +97,17 @@
 
 Javascript 常用的函式命名規則
 
-- 非同步讀取資料 **ajax**
+#### 非同步讀取資料 **ajax**
 * 取得資料 **get**
 * 設定資料 **set**
 * 傳送資料 **post**
 * 更新資料 **update**
 * 刪除資料 **delete**
 
-- 初始/顯示元件 **init**, **display**, **render**
+#### 初始/顯示元件 **init**, **display**, **render**
 * 元件名稱 **menu** 
 
-- 處理事件 **event**, **handle**
+#### 處理事件 **event**, **handle**
 * 元件名稱+動作 **menuClick**, **inputChange**
 
 下列程式為應用的範例：
