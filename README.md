@@ -4,6 +4,7 @@
 ## 目錄
 - [Javascript ES6](es6/)
 - [Javascript ES5](es5/)
+- [Javascript Modular](javascript-modular/)
 - [CSS & Sass](css-sass/)
 - [HTML](html5/)
 - [React](react/)

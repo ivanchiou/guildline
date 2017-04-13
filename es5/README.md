@@ -1,4 +1,4 @@
-# EIT F2E Javascript ES5 Style Code
+# EIT F2E Javascript ES5 Code Style 
 *東森訊息科技前端團隊 Javascript ES5 程式碼參考準則*
 
 ## 目錄
@@ -6,9 +6,7 @@
 1. [命名規則](#命名規則)
 1. [空白](#空白)
 1. [字串](#字串)
-1. [陣列]()
-1. [字串]()
-1. [函式]()
+1. [函式](#函式)
 
 ## 命名規則
 
@@ -68,6 +66,12 @@ function updateProducts() { ... }
 function sellBook() { ... }
 function buyGoods() { ... }
 ```
+
+## 空白
+
+空白的使用時機及規則
+* 關鍵字後： **if, for, do while, switch**
+* 中綴字前後
 
 ## 字串
 
