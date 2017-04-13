@@ -1,4 +1,4 @@
-# EIT F2E Javascript Modular Code Style 
+# EIT F2E Javascript Modular Code Style 
 *東森訊息科技前端團隊 Javascript Modular 模組化程式碼參考準則*
 
 ## 目錄
