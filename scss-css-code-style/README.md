@@ -14,22 +14,22 @@
 
 * 一條樣式描述(A declaration)
 ```css
-	background-color: red
+  background-color: red
 ```    
 
 * 一個樣式描述塊(A declaration block)
 ```css
 {
-  	background-color: red;
-  	background-style: none;
+  background-color: red;
+  background-style: none;
 }
 ```       
 
 * 一條規則(A ruleset or rule)
 ```css   
 div p, #id:first-line {
-	background-color: red;
-	background-style: none;
+  background-color: red;
+  background-style: none;
 }
 ```
 
@@ -57,12 +57,12 @@ div p, #id:first-line {
 
 ```css
 header {
-	color: $primary-color;
+  color: $primary-color;
 }
 
 div p, #id:first-line {
-	background-color: $primary-color;
-	background-style: none;
+  background-color: $primary-color;
+  background-style: none;
 }
 ```
 
@@ -107,24 +107,24 @@ div p, #id:first-line {
 ```scss
 // ✓ OK
 .confirm-button-with-unique-image {
-	span {
-		&::before {
-			background-image: url('.../unique.jpg'); 
-		}
-	}
+  span {
+    &::before {
+      background-image: url('.../unique.jpg'); 
+    }
+  }
 }
 
 // ✗ avoid 
 .product-page {
-	.header {
-		.button.confirm {
-			span {
-				&::before {
-					background-image: url('...'); 
-				}
-			}
-		}
+  .header {
+    .button.confirm {
+      span {
+	&::before {
+	  background-image: url('...'); 
 	}
+      }
+    }
+  }
 }
 ```
 
@@ -135,8 +135,9 @@ display: none;
 
 // ✗ avoid 
 display: none !important;
-
-// ✗ also avoid 
+```
+```html
+// ✗ avoid 
 <div style="display: none;">...</div>
 ```
 
@@ -146,17 +147,17 @@ display: none !important;
 ```css
 // ✗ avoid 
 .navigation li {
-	color: #333;
+  color: #333;
 }
 
 .navigation li a {
-	color: #333;
+  color: #333;
 }
 
 // ✓ OK
 .navigation li {
-	&, a {
-        color: #333;
-    }
+  &, a {
+    color: #333;
+  }
 }
 ```
